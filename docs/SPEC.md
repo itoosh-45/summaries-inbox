@@ -416,7 +416,7 @@ General: inspect each workflow with `get_workflow_details` first; edit with targ
 - **The owner's tests:** in n8n, open the credential and click "Test" → green.
 
 ### M2 — API
-- [ ] Build "אינבוקס — API" (§7) with the `Inbox API token` credential (The owner creates it).
+- [ ] Build "אינבוקס — API" (§7) with the `Inbox API token` credential (the owner creates it).
 - **Your tests:** curl every action: with no token → 401; with token → expected JSON; SQL-injection string in `q` → treated as text; `OPTIONS` from the app origin → CORS OK; another origin → blocked.
 - **The owner's tests:** none technical; confirm he saved the token in his password manager.
 
@@ -464,7 +464,7 @@ Ask these (in Hebrew, numbered, one message), plus anything you find unclear:
 7. For testing M4: OK to spend one real Gemini run on a single short episode, or only pinned data until the Friday run?
 8. Spotify: does the owner have Spotify Premium? (Affects whether the Spotify Web API route is worth checking for matching RSS episodes.)
 
-### Answers (The owner, 2026-11-06)
+### Answers (the owner, 2026-11-06)
 1. Shell access: **no**. The cloud session reaches the internet over HTTPS only. Every server command is given to the owner to run (`ssh n8n` from PowerShell).
 2. Repo: `itoosh-45/summaries-inbox`, **private**.
 3. Subdomain `<app-domain>`: **OK**.
